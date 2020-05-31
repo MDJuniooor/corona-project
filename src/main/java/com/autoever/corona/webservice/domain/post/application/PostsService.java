@@ -1,9 +1,8 @@
-package com.autoever.corona.webservice.domain.service;
+package com.autoever.corona.webservice.domain.post.application;
 
-import com.autoever.corona.webservice.domain.Posts;
-import com.autoever.corona.webservice.domain.PostsMainResponseDto;
-import com.autoever.corona.webservice.domain.PostsRepository;
-import com.autoever.corona.webservice.domain.PostsSaveRequestDto;
+import com.autoever.corona.webservice.domain.post.dto.PostsMainResponseDto;
+import com.autoever.corona.webservice.domain.post.dao.PostsRepository;
+import com.autoever.corona.webservice.domain.post.dto.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,5 +1,6 @@
-package com.autoever.corona.webservice.domain;
+package com.autoever.corona.webservice.domain.post.dto;
 
+import com.autoever.corona.webservice.domain.post.domain.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

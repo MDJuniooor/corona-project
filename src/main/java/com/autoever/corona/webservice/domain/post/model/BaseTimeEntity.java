@@ -1,4 +1,4 @@
-package com.autoever.corona.webservice.domain;
+package com.autoever.corona.webservice.domain.post.model;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

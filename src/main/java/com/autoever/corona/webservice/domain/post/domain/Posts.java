@@ -1,5 +1,6 @@
-package com.autoever.corona.webservice.domain;
+package com.autoever.corona.webservice.domain.post.domain;
 
+import com.autoever.corona.webservice.domain.post.model.BaseTimeEntity;
 import lombok.*;
 
 import javax.persistence.*;

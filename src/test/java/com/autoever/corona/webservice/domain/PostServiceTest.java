@@ -1,6 +1,9 @@
 package com.autoever.corona.webservice.domain;
 
-import com.autoever.corona.webservice.domain.service.PostsService;
+import com.autoever.corona.webservice.domain.post.application.PostsService;
+import com.autoever.corona.webservice.domain.post.domain.Posts;
+import com.autoever.corona.webservice.domain.post.dao.PostsRepository;
+import com.autoever.corona.webservice.domain.post.dto.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,7 @@
-package com.autoever.corona.web;
+package com.autoever.corona.webservice.domain.post.api;
 
 
-import com.autoever.corona.webservice.domain.PostsMainResponseDto;
-import com.autoever.corona.webservice.domain.service.PostsService;
+import com.autoever.corona.webservice.domain.post.application.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
